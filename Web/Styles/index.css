@@ -1,0 +1,212 @@
+﻿#Rotator {
+    background: #9fc63f;
+    clear: both;
+    height: 415px;
+    position: relative;
+}
+
+.rotator {
+}
+
+    .rotator .prev {
+        background-image: url(../images/backward.png);
+        display: block;
+        height: 60px;
+        left: 50px;
+        margin-top: -30px;
+        position: absolute;
+        top: 50%;
+        width: 60px;
+    }
+
+    .rotator .next {
+        background-image: url(../images/forward.png);
+        display: block;
+        right: 50px;
+        height: 60px;
+        margin-top: -30px;
+        position: absolute;
+        top: 50%;
+        width: 60px;
+    }
+
+    .rotator .rotatorWrapper {
+        height: 420px;
+        margin: 0 auto;
+        position: relative;
+        width: 960px;
+        overflow: hidden;
+    }
+
+    .rotator ul {
+        position: absolute;
+        top: 0px;
+        width: 2000em;
+    }
+
+    .rotator li {
+        float: left;
+        height: 420px;
+        width: 960px;
+        position: relative;
+    }
+
+.slide0, .slide1, .slide2 {
+    background: url(../images/slide.png) left center no-repeat;
+}
+
+    .slide0 div,
+    .slide1 div,
+    .slide2 div {
+        color: #fff;
+        font-size: 25px;
+        line-height: 1.5;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 75px;
+        width: 400px;
+    }
+
+
+
+.content h2 {
+    background: url(../images/bg_dash.png) bottom right repeat-x;
+    font-size: 28px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+    .services ul {
+        margin-top: 40px;
+    }
+
+    .services li {
+        float: left;
+        margin-right: 75px;
+    }
+
+        .services li:last-child {
+            margin-right: 0;
+        }
+
+    .services .discOuter {
+        background: #fff;
+        border: 1px solid #dedede;
+        border-radius: 100%;
+        height: 178px;
+        margin-bottom: 18px;
+        width: 178px;
+    }
+
+    .services .discInner {
+        background: #9fc63f;
+        border-radius: 100%;
+        height: 140px;
+        margin: 19px;
+        width: 140px;
+    }
+
+        .services .discInner .icon {
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 140px;
+            width: 140px;
+        }
+
+    .services .amazing {
+        background-image: url(../images/amazing.png);
+    }
+
+    .services .hour {
+        background-image: url(../images/24hour.png);
+    }
+
+    .services .webicon {
+        background-image: url(../images/web.png);
+    }
+
+    .services .mobiledev {
+        background-image: url(../images/mobile.png);
+    }
+
+    .services h3 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .services h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+.subHeader {
+    background: url(../images/bg_dash.png) center repeat-x;
+    clear: both;
+    height: 20px;
+    margin-bottom: 35px;
+}
+
+    .subHeader h4 {
+        background: #f5f5f5;
+        font-size: 20px;
+        height: 20px;
+        padding-top: 4px;
+        margin-left: 30px;
+        width: 275px;
+    }
+
+
+.portItem {
+    border: 1px solid #ecebeb;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 16px;
+    width: 465px;
+}
+
+    .portItem:nth-child(2n + 1) {
+        margin-right: 0;
+    }
+
+    .portItem img {
+        float: left;
+        height: 148px;
+        margin-right: 20px;
+        width: 227px;
+    }
+
+    .portItem h5 {
+        font-size: 12px;
+        margin: 15px 0 10px 0;
+    }
+
+    .portItem a {
+        background: #9fc63f;
+        color: #fff;
+        display: inline-block;
+        margin-right: 6px;
+        margin-bottom: 14px;
+        padding: 3px 10px;
+        text-decoration: none;
+    }
+
+    .portItem p {
+    }
+
+.advertisers {
+}
+
+    .advertisers li {
+        background-image: url(../images/adv_background.png);
+        float: left;
+        margin: 0px;
+        height: 131px;
+        width: 160px;
+    }
