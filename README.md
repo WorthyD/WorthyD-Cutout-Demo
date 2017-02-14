@@ -1,6 +1,9 @@
 WorthyD-Cutout-Demo
 ===================
 
+
+### Sorry everyone, but the PSD is now premium content and you must pay for it.
+
 PSD:
 http://www.designscanyon.com/psd-corporate-business-website-template-free-download/
 
